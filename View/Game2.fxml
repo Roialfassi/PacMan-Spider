@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="688" prefWidth="811.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="View.GameController2">
+  <children>
+      <AnchorPane prefHeight="688.0" prefWidth="800.0" style="-fx-background-color: black;">
+         <children>
+            <Group fx:id="mazeGroupParam" layoutX="10.0" layoutY="10.0" />
+            <ImageView fx:id="sound" fitHeight="37.0" fitWidth="46.0" layoutX="760.0" layoutY="69.0" onMouseClicked="#doSwapMusic" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Resources/Images/sound.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="37.0" fitWidth="37.0" layoutX="760.0" layoutY="14.0" onMouseClicked="#close" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Resources/Images/exit.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="37.0" fitWidth="46.0" layoutX="760.0" layoutY="645.0" onMouseClicked="#openMain" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Resources/Images/home.jpg" />
+               </image>
+            </ImageView>
+            <TextArea fx:id="score" disable="true" editable="false" layoutX="628.0" layoutY="295.0" opacity="0.88" prefHeight="38.0" prefWidth="110.0" style="-fx-background-color: MEDIUMBLUE;" />
+            <TextArea fx:id="userName" disable="true" editable="false" layoutX="628.0" layoutY="126.0" opacity="0.88" prefHeight="38.0" prefWidth="110.0" style="-fx-background-color: MEDIUMBLUE;" />
+            <ImageView fx:id="life1" layoutX="686.0" layoutY="248.0">
+               <image>
+                  <Image url="@../Resources/pacman/images/Character/left1_Yellow.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="life2" layoutX="650.0" layoutY="248.0">
+               <image>
+                  <Image url="@../Resources/pacman/images/Character/left1_Yellow.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="727.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="כמות חיים שנשארה:" textAlignment="CENTER" wrappingWidth="73.94141218066216">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="737.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="זמן שנשאר:" textAlignment="RIGHT" wrappingWidth="61.94140625">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="timer" fill="WHITE" layoutX="637.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="זמן" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Text>
+            <Text fx:id="time" fill="WHITE" layoutX="669.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="זמן" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="737.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="שם שחקן:" textAlignment="RIGHT" wrappingWidth="61.94140625">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="737.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ניקוד:" textAlignment="RIGHT" wrappingWidth="61.94140625">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <AnchorPane fx:id="Qbar" layoutX="628.0" layoutY="345.0" prefHeight="292.0" prefWidth="177.0">
+               <children>
+                  <TextArea fx:id="question" disable="true" editable="false" layoutY="31.0" opacity="0.9" prefHeight="50.0" prefWidth="170.0" wrapText="true" style="-fx-background-color: YELLOW;"/>
+                  <TextArea fx:id="answer1" disable="true" editable="false" layoutY="101.0" opacity="0.9" prefHeight="30.0" prefWidth="170.0" wrapText="true" style="-fx-background-color: PINK;"/>
+                  <TextArea fx:id="answer2" disable="true" editable="false" layoutY="152.0" opacity="0.9" prefHeight="30.0" prefWidth="170.0" wrapText="true" style="-fx-background-color: ORANGE;"/>
+                  <TextArea fx:id="answer3" disable="true" editable="false" layoutY="202.0" opacity="0.9" prefHeight="30.0" prefWidth="170.0" wrapText="true" style="-fx-background-color: CRIMSON;"/>
+                  <TextArea fx:id="answer4" disable="true" editable="false" layoutY="254.0" opacity="0.9" prefHeight="30.0" prefWidth="170.0" wrapText="true" style="-fx-background-color: CYAN;"/>
+                  <Text fill="WHITE" layoutX="67.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="שאלה:" textAlignment="CENTER" wrappingWidth="54.94140625">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="81.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" textAlignment="CENTER" wrappingWidth="25.999981075525284">
+                     <font>
+                        <Font name="System Bold" size="10.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="81.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2" textAlignment="CENTER" wrappingWidth="25.999981075525284">
+                     <font>
+                        <Font name="System Bold" size="10.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="81.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" textAlignment="CENTER" wrappingWidth="25.999981075525284">
+                     <font>
+                        <Font name="System Bold" size="10.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="81.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4" textAlignment="CENTER" wrappingWidth="25.999981075525284">
+                     <font>
+                        <Font name="System Bold" size="10.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <Text fill="WHITE" layoutX="625.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="זמן מתחילת המשחק:" textAlignment="RIGHT" wrappingWidth="102.94140625">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+  </children>
+</VBox>

@@ -1,0 +1,41 @@
+Button
+{
+    -fx-background-color: YELLOW;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,1;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+}
+Button:hover
+{
+	-fx-font-weight: bold;
+    -fx-background-color: BLACK;
+    -fx-background-radius: 22;
+    -fx-background-insets: 0;
+    -fx-text-fill: YELLOW;
+    
+}
+TextField
+{
+	-fx-background-radius: 30;
+    -fx-background-insets: 0,1,1;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+}
+TextArea
+{
+    -fx-background-insets: 0,1,1;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+.text-area *.text
+{
+	-fx-text-alignment: center;
+	-fx-font-weight: bold;
+}
+.text-field *.text
+{
+	-fx-text-alignment: center;
+	-fx-font-weight: bold;
+}

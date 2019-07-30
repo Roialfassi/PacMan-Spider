@@ -1,0 +1,37 @@
+09:57:55	Initializing PacMan
+09:57:56	Aquired resource: file:/D:/TEMP/Pac-Man-master/src/Resources/theme.mp3
+09:57:56	Getting resource: file:/D:/TEMP/Pac-Man-master/src/Resources/theme.mp3
+09:57:56	Aquired resource: file:/D:/TEMP/Pac-Man-master/src/Resources/theme.mp3
+09:57:56	Changing volume to theme.mp3 - 1.0
+09:57:56	file:/D:/TEMP/Pac-Man-master/src/Resources/Style.css
+09:57:56	Finished Parse Scores
+09:57:56	Finished Parse Questions
+09:57:58	Aquired resource: file:/D:/TEMP/Pac-Man-master/src/Resources/theme.mp3
+09:57:58	file:/D:/TEMP/Pac-Man-master/src/Resources/Style.css
+09:57:59	Aquired resource: file:/D:/TEMP/Pac-Man-master/src/Resources/theme.mp3
+09:57:59	file:/D:/TEMP/Pac-Man-master/src/Resources/Style.css
+09:58:01	State Changes to 1
+09:58:01	Aquired resource: file:/D:/TEMP/Pac-Man-master/src/Resources/theme.mp3
+09:58:01	file:/D:/TEMP/Pac-Man-master/src/Resources/Style.css
+09:58:04	Aquired resource: file:/D:/TEMP/Pac-Man-master/src/Resources/theme.mp3
+09:58:04	file:/D:/TEMP/Pac-Man-master/src/Resources/Style.css
+09:58:06	Aquired resource: file:/D:/TEMP/Pac-Man-master/src/Resources/theme.mp3
+09:58:06	file:/D:/TEMP/Pac-Man-master/src/Resources/Style.css
+09:58:09	State Changes to 1
+09:58:09	State Changes to 2
+09:58:09	Aquired resource: file:/D:/TEMP/Pac-Man-master/src/Resources/theme.mp3
+09:58:09	file:/D:/TEMP/Pac-Man-master/src/Resources/Style.css
+09:58:13	Returning Q to 1
+****************************************************************************
+09:58:20	Paused Maze 1
+09:58:20	Aquired resource: file:/D:/TEMP/Pac-Man-master/src/Resources/theme.mp3
+09:58:20	file:/D:/TEMP/Pac-Man-master/src/Resources/Style.css
+09:58:22	Returning Q to 2
+****************************************************************************
+09:58:31	Paused Maze 2
+09:58:31	Aquired resource: file:/D:/TEMP/Pac-Man-master/src/Resources/theme.mp3
+09:58:31	file:/D:/TEMP/Pac-Man-master/src/Resources/Style.css
+****************************************************************************
+09:58:42	Paused Maze 1
+09:58:42	Aquired resource: file:/D:/TEMP/Pac-Man-master/src/Resources/theme.mp3
+09:58:42	file:/D:/TEMP/Pac-Man-master/src/Resources/Style.css
